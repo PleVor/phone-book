@@ -9,7 +9,7 @@ class NrTelefoniczny implements Comparable<NrTelefoniczny> {
         this.nrTelefonu = nrTelefonu;
     }
 
-    @Override
+
     public int compareTo(NrTelefoniczny o) {
         int compareKierunkowy = nrKierunkowy.compareTo(o.nrKierunkowy);
         if (compareKierunkowy == 0) {
@@ -18,7 +18,7 @@ class NrTelefoniczny implements Comparable<NrTelefoniczny> {
         return compareKierunkowy;
     }
 
-    @Override
+
     public String toString() {
         return nrKierunkowy + " " + nrTelefonu;
     }

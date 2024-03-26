@@ -11,7 +11,6 @@ class Osoba extends Wpis {
         this.nrTelefonu = nrTelefonu;
     }
 
-    @Override
     public void opis() {
         System.out.println("Osoba: " + imie + " " + nazwisko + ", adres: " + adres + ", telefon: " + nrTelefonu);
     }
